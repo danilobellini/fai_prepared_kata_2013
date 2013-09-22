@@ -20,3 +20,6 @@ def test_two_letters():
   assert t9("h") == "44"
   assert t9("k") == "55"
   assert t9("n") == "66"
+
+def test_banana():
+  assert t9("banana") == "22_2662662"

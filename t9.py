@@ -19,5 +19,13 @@ def t9(msg):
     "m": "6",
     "n": "66",
   }
-  return data[msg]
+  numbers = []
+  for ch in msg:
+    numbers.append(data[ch])
+  last = "_"
+  for idx, number in enumerate(numbers):
+    if last == number[-1]:
+      numbers[idx] = "_" + number
+    last = number[0]
+  return "".join(numbers)
   
