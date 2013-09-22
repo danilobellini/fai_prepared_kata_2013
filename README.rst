@@ -1,5 +1,5 @@
-Prepared Kata - iMasters' Dev Day at FAI
-========================================
+iMasters' DevDay at FAI 2013 first TDD 
+======================================
 
 Repository with the code written during of a small-duration Prepared Kata that
 happened at FAI-SP (Adamantina - SP - Brazil), day 2013-08-24, first of the
